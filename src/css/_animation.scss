@@ -29,3 +29,13 @@
         transform: translate(0px, -10px);
     }
 }
+
+@keyframes spinObject {
+    0% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(1deg);
+    }
+}
