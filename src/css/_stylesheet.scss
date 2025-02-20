@@ -211,3 +211,55 @@ footer {
 #animation-button:hover {
   @include button-hover()
 }
+
+#contact-form{
+  background-color: $highlight-color;
+  box-shadow: 2px 2px 2px 2px darken($highlight-color,10%);
+  border-radius: 5px;
+  color: $text-color;
+  padding: 2%;
+
+  @extend #inledning-sektion;
+  margin-top: 5%;
+  
+  h2{
+    text-align:center;
+  }
+
+}
+
+#name {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: $primary-color;
+  margin:auto;
+  margin-left: 11%;
+  margin-top: 3%;
+}
+
+#email {
+  @extend #name;
+  margin-left: 10.8%;
+}
+
+#message {
+  @extend #name;
+  margin-left: 4%;
+}
+
+#submit-button {
+  @include button();
+  margin-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: $primary-color;
+
+}
+
+#submit-button:hover {
+  @include button-hover();
+}
+
