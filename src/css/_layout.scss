@@ -96,9 +96,33 @@ footer {
     grid-column-end: 5;
 }
 
-#contact-form {
+#animation-line {
     grid-row-start: 4;
     grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#kontakt-titel {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#animation-hand {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+
+
+
+#contact-form {
+    grid-row-start: 7;
+    grid-row-end: 7;
     grid-column-start: 1;
     grid-column-end: 5;
 }

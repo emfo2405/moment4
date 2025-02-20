@@ -252,14 +252,50 @@ footer {
 
 #submit-button {
   @include button();
-  margin-top: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
+  margin-top: 4%;
+padding:3%;
+padding-left:5%;
+padding-right:5%;
   background-color: $primary-color;
 
 }
 
 #submit-button:hover {
   @include button-hover();
+  
 }
+
+#hand-symbol {
+  animation-name: moveObject;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position:relative;
+}
+
+#animation-line {
+  width: 200px;
+  height: 10px;
+  margin: auto;
+  margin-top: 5%;
+  background: $highlight-color;
+  transition-property: width;
+  transition-duration: 5s;
+}
+
+#animation-line:hover {
+  width: 400px; 
+  background-color: darken($highlight-color, 30%);
+}
+
+#kontakt-titel {
+  margin:auto;
+}
+
+#animation-hand {
+  margin:auto;
+  font-size: 300%;
+}
+
+
 

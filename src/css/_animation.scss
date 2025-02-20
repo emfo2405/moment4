@@ -1,14 +1,10 @@
 @keyframes moveText {
     0% {
-        left: -50px;
+        left: -30px;
     }
 
-50% {
-    left: 0;
-}
-
     100% {
-        left: 50px;
+        left: 30px;
     }
 }
 
@@ -19,5 +15,17 @@
 
     100% {
         box-shadow: 10px 10px;
+    }
+}
+
+@keyframes moveObject {
+    0% {
+        transform: scale(2,2);
+        transform: translate(0px,20px);
+    }
+
+    100% {
+        transform: scale(1,1);
+        transform: translate(0px, -10px);
     }
 }
