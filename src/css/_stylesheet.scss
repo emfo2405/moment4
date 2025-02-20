@@ -247,13 +247,13 @@ footer {
 
 #message {
   @extend #name;
-  margin-left: 4%;
+  margin-left: 7.5%;
 }
 
 #submit-button {
   @include button();
   margin-top: 4%;
-padding:3%;
+padding:1.5%;
 padding-left:5%;
 padding-right:5%;
   background-color: $primary-color;
